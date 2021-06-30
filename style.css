@@ -18,12 +18,13 @@ li {
 
 
 body {
+    background-color: var(--dark-cyan);
   background-image: url(./images/bg-pattern-top.svg),
     url(./images/bg-pattern-bottom.svg);
   background-position: 105% 130%, -35% -25%;
   background-position: 130% 85%, -40% -25%;
+  background-position: -190px -280px, 170px 370px;
   background-repeat: no-repeat;
-  background-color: var(--dark-cyan);
 }
 
 .container {
@@ -133,6 +134,7 @@ body {
     body {
   background-position: 278% 90%, -140% -40%;
     overflow: hidden;
+      
 }
     .card {
         width: 350px;
